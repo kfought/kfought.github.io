@@ -2913,7 +2913,7 @@
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #BFFFDD;
 			}
 
 			.statistics li.style2 {
@@ -3094,7 +3094,10 @@
 
 	#header {
 		padding: 5em 5em 1em 5em ;
+		border-style: solid;
+		border-width: 5px;
 		text-align: center;
+		font-family: garamond;
 	}
 
 		#header h1 {
@@ -3142,7 +3145,7 @@
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 100%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3355,9 +3358,10 @@
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #FFFDBF;
 		color: #636363;
 		border-radius: 0.25em;
+		font-family: garamond;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3709,6 +3713,7 @@
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		font-family: garamond;
 	}
 
 		#footer > * {
